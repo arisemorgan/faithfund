@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    /* ✅ Modern TS settings */
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* ✅ Paths for clean imports */
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    },
+
+    /* ✅ Helpful strictness — not too harsh */
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* ⚙️ Optional developer leniency (keeps warnings down) */
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitAny": false,
+    "allowUnreachableCode": true
+  },
+  "include": ["src", "public/i18n"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

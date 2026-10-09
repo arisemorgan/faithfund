@@ -1,0 +1,14 @@
+# FaithFund Connect - Robots.txt
+User-agent: *
+Allow: /
+Allow: /campaign/
+Allow: /church-services
+Disallow: /dashboard/
+Disallow: /admin/
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://faithfund-connect-8ttwkvtv.sites.blink.new/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
